@@ -4,6 +4,10 @@ WerkTrack DE is an offline-first Flutter application for tracking work time, gro
 
 The local Drift/SQLite database is the source of truth. No account or network is required. Optional Firebase sync has a local adapter, deterministic conflict handling and a sign-in/settings flow; enabling it requires a separately configured Firebase project.
 
+## Download
+
+Development APKs are published on the [GitHub Releases page](https://github.com/Mr-Dark-debug/werktrack-de/releases). They are debug-signed engineering previews for testing, not production/store releases. Back up existing records before replacing or uninstalling an app build.
+
 ## Run
 
 **On a Mac?** Follow the [macOS clone, setup and APK build guide](docs/macos-setup.md). Verified toolchain: Flutter 3.41.9 / Dart 3.11.5. Android minimum: API 24.
